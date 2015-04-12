@@ -16,7 +16,8 @@ GNU General Public License for more details.
 Purpose: Gives the proportion of DNA bases of high quality (Phred 30).
 Proportion of bases >= 0.8 should be sufficient for de novo assembly.
 
-Requires Java 1.5 or above.
+Java version requires Java 1.5 or above. This code is deprecated as it only supports Phred64.
+Python version requires Python 2.X. This code supports both Phred33 and Phred 64.
 
 Comments and queries are welcome to either or both authors, however we are
 unable to provide dedicated technical support. 
