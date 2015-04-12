@@ -1,11 +1,12 @@
-# SolexaStats v0.1
+# SolexaStats v0.1.1
 # Cameron Jack, Monica Gruber 2010. Victoria University of Wellington.
 #
 # SolexaStats implements Illumina's suggest quality baseline of the total FASTQ file
 # having a minimum of 80% of bases of Phred score 30 or better. This corresponds to
 # p < 0.001 or the ^_`abcdefgh symbols.
 #
-# Required Python 2.x
+# Requires Python 2.x
+# Handles both Phred33 and Phred64.
 
 import sys
 
